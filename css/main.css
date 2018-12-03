@@ -27,6 +27,13 @@ header {
   color: #fff;
 }
 
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  padding: .5rem;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -37,10 +44,11 @@ nav ul {
 nav a:hover {
   background-color: #6c8fe0;
   color: #fff;
+  white-space: normal;
 }
 
 nav a {
-  display: block;
+  display: flex;
   color: #6c8fe0;
   width: 100%;
   padding: .7rem .9rem;
